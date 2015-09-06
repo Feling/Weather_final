@@ -331,7 +331,7 @@ public class GUI {
 			}
 		});
 	}
-	String RoundTo2Decimals(double val) {
+	String RoundTo2Decimals(Double val) {
         DecimalFormat df2 = new DecimalFormat("###.#");
     return Double.valueOf(df2.format(val)).toString();
 }
